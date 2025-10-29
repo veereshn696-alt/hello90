@@ -7,3 +7,11 @@ elif(marks>70) :
     print("grade C")
 elif(marks>60) :
     print("grade D")
+marks=[]
+for i in range(1,6) :
+    marks=int(input("enter subject marks :"))
+    avg=sum(marks)/5
+if(avg>=85) :
+    print("grade A")
+else :
+    print("fail")
